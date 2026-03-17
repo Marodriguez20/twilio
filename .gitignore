@@ -1,6 +1,6 @@
 /venv
-__pycache__/
-*.pyc
+/__pycache__/
+*.py[cod]
 .env
 *.pdf
 .DS_Store
