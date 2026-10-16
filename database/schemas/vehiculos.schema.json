@@ -1,0 +1,25 @@
+{
+  "name": "vehiculos",
+  "type": "collection",
+  "fields": [
+    "id",
+    "marca",
+    "modelo",
+    "anio",
+    "precio",
+    "tipo",
+    "pasajeros",
+    "motor",
+    "combustible",
+    "transmision",
+    "consumo",
+    "seguridad",
+    "potencia",
+    "diseno",
+    "maletero",
+    "descripcion",
+    "imagen",
+    "estado",
+    "createdAt"
+  ]
+}

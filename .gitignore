@@ -1,6 +1,8 @@
-/venv
-/__pycache__/
-*.py[cod]
+node_modules/
+dist/
 .env
-*.pdf
+.env.*
+*.log
 .DS_Store
+coverage/
+.vite/

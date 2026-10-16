@@ -1,0 +1,12 @@
+{
+  "name": "recomendaciones",
+  "type": "collection",
+  "fields": [
+    "id",
+    "clienteId",
+    "fecha",
+    "resultados",
+    "mejorCoincidencia",
+    "asesor"
+  ]
+}

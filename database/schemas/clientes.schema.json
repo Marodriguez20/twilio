@@ -1,0 +1,23 @@
+{
+  "name": "clientes",
+  "type": "collection",
+  "fields": [
+    "id",
+    "nombre",
+    "documento",
+    "telefono",
+    "email",
+    "ingresos",
+    "presupuesto",
+    "familia",
+    "pasajeros",
+    "uso",
+    "tipoVehiculo",
+    "combustible",
+    "transmision",
+    "importanciaConsumo",
+    "importanciaSeguridad",
+    "preferenciaDiseno",
+    "createdAt"
+  ]
+}

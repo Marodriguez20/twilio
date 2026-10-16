@@ -1,0 +1,2442 @@
+[
+  {
+    "id": "94d7006c-7813-47f3-a8c5-b6c64cb20737",
+    "clienteId": "CL-010",
+    "fecha": "2026-10-01T00:09:05.369Z",
+    "resultados": [
+      {
+        "vehiculoId": "VE-006",
+        "vehiculo": "Chevrolet Captiva",
+        "score": 100,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 100,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 100,
+          "transmision": 100,
+          "seguridad": 100,
+          "diseno": 90
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Coincide con el tipo de vehículo preferido",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de combustible",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": []
+      },
+      {
+        "vehiculoId": "VE-002",
+        "vehiculo": "Chevrolet Tracker",
+        "score": 96,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 100,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 20,
+          "transmision": 100,
+          "seguridad": 100,
+          "diseno": 90
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Coincide con el tipo de vehículo preferido",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El combustible no coincide totalmente con la preferencia"
+        ]
+      },
+      {
+        "vehiculoId": "VE-007",
+        "vehiculo": "Chevrolet Trailblazer",
+        "score": 96,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 100,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 20,
+          "transmision": 100,
+          "seguridad": 100,
+          "diseno": 100
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Coincide con el tipo de vehículo preferido",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El combustible no coincide totalmente con la preferencia"
+        ]
+      },
+      {
+        "vehiculoId": "VE-009",
+        "vehiculo": "Chevrolet Bolt EUV",
+        "score": 96,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 100,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 20,
+          "transmision": 100,
+          "seguridad": 100,
+          "diseno": 90
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Coincide con el tipo de vehículo preferido",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El combustible no coincide totalmente con la preferencia"
+        ]
+      },
+      {
+        "vehiculoId": "VE-014",
+        "vehiculo": "Chevrolet Equinox",
+        "score": 96,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 100,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 20,
+          "transmision": 100,
+          "seguridad": 100,
+          "diseno": 100
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Coincide con el tipo de vehículo preferido",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El combustible no coincide totalmente con la preferencia"
+        ]
+      }
+    ],
+    "mejorCoincidencia": 100,
+    "asesor": "Asesor principal"
+  },
+  {
+    "id": "e4534339-072f-4b6b-8a60-13c279c1eb8a",
+    "clienteId": "CL-005",
+    "fecha": "2026-10-01T00:07:21.537Z",
+    "resultados": [
+      {
+        "vehiculoId": "VE-004",
+        "vehiculo": "Chevrolet Spark",
+        "score": 90,
+        "factores": {
+          "presupuesto": 80,
+          "tipo": 100,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 100,
+          "transmision": 100,
+          "seguridad": 48,
+          "diseno": 70
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Coincide con el tipo de vehículo preferido",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de combustible",
+          "Coincide con la preferencia de transmisión"
+        ],
+        "observaciones": [
+          "La seguridad podría ajustarse mejor a la preferencia del cliente",
+          "El diseño es menos alineado a la preferencia del cliente"
+        ]
+      },
+      {
+        "vehiculoId": "VE-001",
+        "vehiculo": "Chevrolet Onix",
+        "score": 63,
+        "factores": {
+          "presupuesto": 0,
+          "tipo": 100,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 100,
+          "transmision": 20,
+          "seguridad": 64,
+          "diseno": 80
+        },
+        "fortalezas": [
+          "Cumple con la capacidad requerida",
+          "Coincide con el tipo de vehículo preferido",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de combustible",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El precio está ligeramente por encima del presupuesto",
+          "La transmisión no coincide con la preferencia",
+          "La seguridad podría ajustarse mejor a la preferencia del cliente"
+        ]
+      },
+      {
+        "vehiculoId": "VE-005",
+        "vehiculo": "Chevrolet Sail",
+        "score": 58,
+        "factores": {
+          "presupuesto": 0,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 100,
+          "transmision": 100,
+          "seguridad": 48,
+          "diseno": 70
+        },
+        "fortalezas": [
+          "Cumple con la capacidad requerida",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de combustible",
+          "Coincide con la preferencia de transmisión"
+        ],
+        "observaciones": [
+          "El precio está ligeramente por encima del presupuesto",
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "La seguridad podría ajustarse mejor a la preferencia del cliente",
+          "El diseño es menos alineado a la preferencia del cliente"
+        ]
+      },
+      {
+        "vehiculoId": "VE-003",
+        "vehiculo": "Chevrolet Cruze",
+        "score": 55,
+        "factores": {
+          "presupuesto": 0,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 100,
+          "transmision": 20,
+          "seguridad": 64,
+          "diseno": 80
+        },
+        "fortalezas": [
+          "Cumple con la capacidad requerida",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de combustible",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El precio está ligeramente por encima del presupuesto",
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "La transmisión no coincide con la preferencia",
+          "La seguridad podría ajustarse mejor a la preferencia del cliente"
+        ]
+      },
+      {
+        "vehiculoId": "VE-013",
+        "vehiculo": "Chevrolet Monza",
+        "score": 51,
+        "factores": {
+          "presupuesto": 0,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 20,
+          "transmision": 20,
+          "seguridad": 64,
+          "diseno": 80
+        },
+        "fortalezas": [
+          "Cumple con la capacidad requerida",
+          "Es adecuado para el uso seleccionado",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El precio está ligeramente por encima del presupuesto",
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "El combustible no coincide totalmente con la preferencia",
+          "La transmisión no coincide con la preferencia",
+          "La seguridad podría ajustarse mejor a la preferencia del cliente"
+        ]
+      }
+    ],
+    "mejorCoincidencia": 90,
+    "asesor": "Asesor principal"
+  },
+  {
+    "id": "e221391d-480c-497a-a0c9-d2387261e8b1",
+    "clienteId": "CL-006",
+    "fecha": "2026-09-30T23:58:43.061Z",
+    "resultados": [
+      {
+        "vehiculoId": "VE-006",
+        "vehiculo": "Chevrolet Captiva",
+        "score": 90,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 100,
+          "transmision": 100,
+          "seguridad": 100,
+          "diseno": 60
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de combustible",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente"
+        ],
+        "observaciones": [
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "El diseño es menos alineado a la preferencia del cliente"
+        ]
+      },
+      {
+        "vehiculoId": "VE-007",
+        "vehiculo": "Chevrolet Trailblazer",
+        "score": 87,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 20,
+          "transmision": 100,
+          "seguridad": 100,
+          "diseno": 70
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente"
+        ],
+        "observaciones": [
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "El combustible no coincide totalmente con la preferencia",
+          "El diseño es menos alineado a la preferencia del cliente"
+        ]
+      },
+      {
+        "vehiculoId": "VE-014",
+        "vehiculo": "Chevrolet Equinox",
+        "score": 87,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 20,
+          "transmision": 100,
+          "seguridad": 100,
+          "diseno": 70
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente"
+        ],
+        "observaciones": [
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "El combustible no coincide totalmente con la preferencia",
+          "El diseño es menos alineado a la preferencia del cliente"
+        ]
+      },
+      {
+        "vehiculoId": "VE-002",
+        "vehiculo": "Chevrolet Tracker",
+        "score": 86,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 20,
+          "transmision": 100,
+          "seguridad": 100,
+          "diseno": 60
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente"
+        ],
+        "observaciones": [
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "El combustible no coincide totalmente con la preferencia",
+          "El diseño es menos alineado a la preferencia del cliente"
+        ]
+      },
+      {
+        "vehiculoId": "VE-008",
+        "vehiculo": "Chevrolet Colorado",
+        "score": 86,
+        "factores": {
+          "presupuesto": 60,
+          "tipo": 100,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 100,
+          "transmision": 100,
+          "seguridad": 100,
+          "diseno": 60
+        },
+        "fortalezas": [
+          "Cumple con la capacidad requerida",
+          "Coincide con el tipo de vehículo preferido",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de combustible",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente"
+        ],
+        "observaciones": [
+          "El precio está ligeramente por encima del presupuesto",
+          "El diseño es menos alineado a la preferencia del cliente"
+        ]
+      },
+      {
+        "vehiculoId": "VE-009",
+        "vehiculo": "Chevrolet Bolt EUV",
+        "score": 86,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 20,
+          "transmision": 100,
+          "seguridad": 100,
+          "diseno": 60
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente"
+        ],
+        "observaciones": [
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "El combustible no coincide totalmente con la preferencia",
+          "El diseño es menos alineado a la preferencia del cliente"
+        ]
+      },
+      {
+        "vehiculoId": "VE-011",
+        "vehiculo": "Chevrolet Spin",
+        "score": 85,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 20,
+          "transmision": 100,
+          "seguridad": 80,
+          "diseno": 60
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente"
+        ],
+        "observaciones": [
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "El combustible no coincide totalmente con la preferencia",
+          "El diseño es menos alineado a la preferencia del cliente"
+        ]
+      },
+      {
+        "vehiculoId": "VE-001",
+        "vehiculo": "Chevrolet Onix",
+        "score": 58,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 0,
+          "capacidad": 100,
+          "uso": 0,
+          "combustible": 20,
+          "transmision": 100,
+          "seguridad": 80,
+          "diseno": 60
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente"
+        ],
+        "observaciones": [
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "El tipo de vehículo no es el ideal para ese uso",
+          "El combustible no coincide totalmente con la preferencia",
+          "El diseño es menos alineado a la preferencia del cliente"
+        ]
+      },
+      {
+        "vehiculoId": "VE-003",
+        "vehiculo": "Chevrolet Cruze",
+        "score": 58,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 0,
+          "capacidad": 100,
+          "uso": 0,
+          "combustible": 20,
+          "transmision": 100,
+          "seguridad": 80,
+          "diseno": 60
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente"
+        ],
+        "observaciones": [
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "El tipo de vehículo no es el ideal para ese uso",
+          "El combustible no coincide totalmente con la preferencia",
+          "El diseño es menos alineado a la preferencia del cliente"
+        ]
+      },
+      {
+        "vehiculoId": "VE-013",
+        "vehiculo": "Chevrolet Monza",
+        "score": 58,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 0,
+          "capacidad": 100,
+          "uso": 0,
+          "combustible": 20,
+          "transmision": 100,
+          "seguridad": 80,
+          "diseno": 60
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente"
+        ],
+        "observaciones": [
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "El tipo de vehículo no es el ideal para ese uso",
+          "El combustible no coincide totalmente con la preferencia",
+          "El diseño es menos alineado a la preferencia del cliente"
+        ]
+      },
+      {
+        "vehiculoId": "VE-004",
+        "vehiculo": "Chevrolet Spark",
+        "score": 53,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 0,
+          "capacidad": 100,
+          "uso": 0,
+          "combustible": 20,
+          "transmision": 20,
+          "seguridad": 60,
+          "diseno": 50
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida"
+        ],
+        "observaciones": [
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "El tipo de vehículo no es el ideal para ese uso",
+          "El combustible no coincide totalmente con la preferencia",
+          "La transmisión no coincide con la preferencia",
+          "La seguridad podría ajustarse mejor a la preferencia del cliente",
+          "El diseño es menos alineado a la preferencia del cliente"
+        ]
+      },
+      {
+        "vehiculoId": "VE-005",
+        "vehiculo": "Chevrolet Sail",
+        "score": 53,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 0,
+          "capacidad": 100,
+          "uso": 0,
+          "combustible": 20,
+          "transmision": 20,
+          "seguridad": 60,
+          "diseno": 50
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida"
+        ],
+        "observaciones": [
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "El tipo de vehículo no es el ideal para ese uso",
+          "El combustible no coincide totalmente con la preferencia",
+          "La transmisión no coincide con la preferencia",
+          "La seguridad podría ajustarse mejor a la preferencia del cliente",
+          "El diseño es menos alineado a la preferencia del cliente"
+        ]
+      },
+      {
+        "vehiculoId": "VE-010",
+        "vehiculo": "Chevrolet Corvette Stingray",
+        "score": 20,
+        "factores": {
+          "presupuesto": 0,
+          "tipo": 0,
+          "capacidad": 40,
+          "uso": 0,
+          "combustible": 20,
+          "transmision": 100,
+          "seguridad": 80,
+          "diseno": 70
+        },
+        "fortalezas": [
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente"
+        ],
+        "observaciones": [
+          "El precio está ligeramente por encima del presupuesto",
+          "La capacidad es inferior a la requerida",
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "El tipo de vehículo no es el ideal para ese uso",
+          "El combustible no coincide totalmente con la preferencia",
+          "El diseño es menos alineado a la preferencia del cliente"
+        ]
+      }
+    ],
+    "mejorCoincidencia": 90,
+    "asesor": "Asesor principal"
+  },
+  {
+    "id": "cc85cf7e-4bc7-4eaa-a9f4-ff2dc230640d",
+    "clienteId": "CL-001",
+    "fecha": "2026-09-30T23:58:40.084Z",
+    "resultados": [
+      {
+        "vehiculoId": "VE-011",
+        "vehiculo": "Chevrolet Spin",
+        "score": 98,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 100,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 100,
+          "transmision": 100,
+          "seguridad": 80,
+          "diseno": 80
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Coincide con el tipo de vehículo preferido",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de combustible",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": []
+      },
+      {
+        "vehiculoId": "VE-002",
+        "vehiculo": "Chevrolet Tracker",
+        "score": 93,
+        "factores": {
+          "presupuesto": 80,
+          "tipo": 100,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 100,
+          "transmision": 100,
+          "seguridad": 100,
+          "diseno": 80
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Coincide con el tipo de vehículo preferido",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de combustible",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": []
+      },
+      {
+        "vehiculoId": "VE-001",
+        "vehiculo": "Chevrolet Onix",
+        "score": 90,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 100,
+          "transmision": 100,
+          "seguridad": 80,
+          "diseno": 80
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de combustible",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El tipo de vehículo no coincide exactamente con la preferencia"
+        ]
+      },
+      {
+        "vehiculoId": "VE-003",
+        "vehiculo": "Chevrolet Cruze",
+        "score": 90,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 100,
+          "transmision": 100,
+          "seguridad": 80,
+          "diseno": 80
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de combustible",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El tipo de vehículo no coincide exactamente con la preferencia"
+        ]
+      },
+      {
+        "vehiculoId": "VE-013",
+        "vehiculo": "Chevrolet Monza",
+        "score": 86,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 20,
+          "transmision": 100,
+          "seguridad": 80,
+          "diseno": 80
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "El combustible no coincide totalmente con la preferencia"
+        ]
+      },
+      {
+        "vehiculoId": "VE-004",
+        "vehiculo": "Chevrolet Spark",
+        "score": 85,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 100,
+          "transmision": 20,
+          "seguridad": 60,
+          "diseno": 70
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de combustible"
+        ],
+        "observaciones": [
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "La transmisión no coincide con la preferencia",
+          "La seguridad podría ajustarse mejor a la preferencia del cliente",
+          "El diseño es menos alineado a la preferencia del cliente"
+        ]
+      },
+      {
+        "vehiculoId": "VE-005",
+        "vehiculo": "Chevrolet Sail",
+        "score": 85,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 100,
+          "transmision": 20,
+          "seguridad": 60,
+          "diseno": 70
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de combustible"
+        ],
+        "observaciones": [
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "La transmisión no coincide con la preferencia",
+          "La seguridad podría ajustarse mejor a la preferencia del cliente",
+          "El diseño es menos alineado a la preferencia del cliente"
+        ]
+      },
+      {
+        "vehiculoId": "VE-007",
+        "vehiculo": "Chevrolet Trailblazer",
+        "score": 70,
+        "factores": {
+          "presupuesto": 0,
+          "tipo": 100,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 100,
+          "transmision": 100,
+          "seguridad": 100,
+          "diseno": 90
+        },
+        "fortalezas": [
+          "Cumple con la capacidad requerida",
+          "Coincide con el tipo de vehículo preferido",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de combustible",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El precio está ligeramente por encima del presupuesto"
+        ]
+      },
+      {
+        "vehiculoId": "VE-014",
+        "vehiculo": "Chevrolet Equinox",
+        "score": 66,
+        "factores": {
+          "presupuesto": 0,
+          "tipo": 100,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 20,
+          "transmision": 100,
+          "seguridad": 100,
+          "diseno": 90
+        },
+        "fortalezas": [
+          "Cumple con la capacidad requerida",
+          "Coincide con el tipo de vehículo preferido",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El precio está ligeramente por encima del presupuesto",
+          "El combustible no coincide totalmente con la preferencia"
+        ]
+      },
+      {
+        "vehiculoId": "VE-006",
+        "vehiculo": "Chevrolet Captiva",
+        "score": 65,
+        "factores": {
+          "presupuesto": 0,
+          "tipo": 100,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 20,
+          "transmision": 100,
+          "seguridad": 100,
+          "diseno": 80
+        },
+        "fortalezas": [
+          "Cumple con la capacidad requerida",
+          "Coincide con el tipo de vehículo preferido",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El precio está ligeramente por encima del presupuesto",
+          "El combustible no coincide totalmente con la preferencia"
+        ]
+      },
+      {
+        "vehiculoId": "VE-009",
+        "vehiculo": "Chevrolet Bolt EUV",
+        "score": 65,
+        "factores": {
+          "presupuesto": 0,
+          "tipo": 100,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 20,
+          "transmision": 100,
+          "seguridad": 100,
+          "diseno": 80
+        },
+        "fortalezas": [
+          "Cumple con la capacidad requerida",
+          "Coincide con el tipo de vehículo preferido",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El precio está ligeramente por encima del presupuesto",
+          "El combustible no coincide totalmente con la preferencia"
+        ]
+      },
+      {
+        "vehiculoId": "VE-008",
+        "vehiculo": "Chevrolet Colorado",
+        "score": 42,
+        "factores": {
+          "presupuesto": 0,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 0,
+          "combustible": 20,
+          "transmision": 100,
+          "seguridad": 100,
+          "diseno": 80
+        },
+        "fortalezas": [
+          "Cumple con la capacidad requerida",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El precio está ligeramente por encima del presupuesto",
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "El tipo de vehículo no es el ideal para ese uso",
+          "El combustible no coincide totalmente con la preferencia"
+        ]
+      },
+      {
+        "vehiculoId": "VE-010",
+        "vehiculo": "Chevrolet Corvette Stingray",
+        "score": 19,
+        "factores": {
+          "presupuesto": 0,
+          "tipo": 0,
+          "capacidad": 0,
+          "uso": 0,
+          "combustible": 100,
+          "transmision": 100,
+          "seguridad": 80,
+          "diseno": 90
+        },
+        "fortalezas": [
+          "Coincide con la preferencia de combustible",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El precio está ligeramente por encima del presupuesto",
+          "La capacidad es inferior a la requerida",
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "El tipo de vehículo no es el ideal para ese uso"
+        ]
+      }
+    ],
+    "mejorCoincidencia": 98,
+    "asesor": "Asesor principal"
+  },
+  {
+    "id": "f689c8ae-97e6-4bdc-b9f1-742acc7e412b",
+    "clienteId": "CL-005",
+    "fecha": "2026-09-30T23:58:37.142Z",
+    "resultados": [
+      {
+        "vehiculoId": "VE-004",
+        "vehiculo": "Chevrolet Spark",
+        "score": 90,
+        "factores": {
+          "presupuesto": 80,
+          "tipo": 100,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 100,
+          "transmision": 100,
+          "seguridad": 48,
+          "diseno": 70
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Coincide con el tipo de vehículo preferido",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de combustible",
+          "Coincide con la preferencia de transmisión"
+        ],
+        "observaciones": [
+          "La seguridad podría ajustarse mejor a la preferencia del cliente",
+          "El diseño es menos alineado a la preferencia del cliente"
+        ]
+      },
+      {
+        "vehiculoId": "VE-001",
+        "vehiculo": "Chevrolet Onix",
+        "score": 63,
+        "factores": {
+          "presupuesto": 0,
+          "tipo": 100,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 100,
+          "transmision": 20,
+          "seguridad": 64,
+          "diseno": 80
+        },
+        "fortalezas": [
+          "Cumple con la capacidad requerida",
+          "Coincide con el tipo de vehículo preferido",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de combustible",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El precio está ligeramente por encima del presupuesto",
+          "La transmisión no coincide con la preferencia",
+          "La seguridad podría ajustarse mejor a la preferencia del cliente"
+        ]
+      },
+      {
+        "vehiculoId": "VE-005",
+        "vehiculo": "Chevrolet Sail",
+        "score": 58,
+        "factores": {
+          "presupuesto": 0,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 100,
+          "transmision": 100,
+          "seguridad": 48,
+          "diseno": 70
+        },
+        "fortalezas": [
+          "Cumple con la capacidad requerida",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de combustible",
+          "Coincide con la preferencia de transmisión"
+        ],
+        "observaciones": [
+          "El precio está ligeramente por encima del presupuesto",
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "La seguridad podría ajustarse mejor a la preferencia del cliente",
+          "El diseño es menos alineado a la preferencia del cliente"
+        ]
+      },
+      {
+        "vehiculoId": "VE-003",
+        "vehiculo": "Chevrolet Cruze",
+        "score": 55,
+        "factores": {
+          "presupuesto": 0,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 100,
+          "transmision": 20,
+          "seguridad": 64,
+          "diseno": 80
+        },
+        "fortalezas": [
+          "Cumple con la capacidad requerida",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de combustible",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El precio está ligeramente por encima del presupuesto",
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "La transmisión no coincide con la preferencia",
+          "La seguridad podría ajustarse mejor a la preferencia del cliente"
+        ]
+      },
+      {
+        "vehiculoId": "VE-013",
+        "vehiculo": "Chevrolet Monza",
+        "score": 51,
+        "factores": {
+          "presupuesto": 0,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 20,
+          "transmision": 20,
+          "seguridad": 64,
+          "diseno": 80
+        },
+        "fortalezas": [
+          "Cumple con la capacidad requerida",
+          "Es adecuado para el uso seleccionado",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El precio está ligeramente por encima del presupuesto",
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "El combustible no coincide totalmente con la preferencia",
+          "La transmisión no coincide con la preferencia",
+          "La seguridad podría ajustarse mejor a la preferencia del cliente"
+        ]
+      },
+      {
+        "vehiculoId": "VE-007",
+        "vehiculo": "Chevrolet Trailblazer",
+        "score": 42,
+        "factores": {
+          "presupuesto": 0,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 0,
+          "combustible": 100,
+          "transmision": 20,
+          "seguridad": 80,
+          "diseno": 90
+        },
+        "fortalezas": [
+          "Cumple con la capacidad requerida",
+          "Coincide con la preferencia de combustible",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El precio está ligeramente por encima del presupuesto",
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "El tipo de vehículo no es el ideal para ese uso",
+          "La transmisión no coincide con la preferencia"
+        ]
+      },
+      {
+        "vehiculoId": "VE-002",
+        "vehiculo": "Chevrolet Tracker",
+        "score": 41,
+        "factores": {
+          "presupuesto": 0,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 0,
+          "combustible": 100,
+          "transmision": 20,
+          "seguridad": 80,
+          "diseno": 80
+        },
+        "fortalezas": [
+          "Cumple con la capacidad requerida",
+          "Coincide con la preferencia de combustible",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El precio está ligeramente por encima del presupuesto",
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "El tipo de vehículo no es el ideal para ese uso",
+          "La transmisión no coincide con la preferencia"
+        ]
+      },
+      {
+        "vehiculoId": "VE-011",
+        "vehiculo": "Chevrolet Spin",
+        "score": 40,
+        "factores": {
+          "presupuesto": 0,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 0,
+          "combustible": 100,
+          "transmision": 20,
+          "seguridad": 64,
+          "diseno": 80
+        },
+        "fortalezas": [
+          "Cumple con la capacidad requerida",
+          "Coincide con la preferencia de combustible",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El precio está ligeramente por encima del presupuesto",
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "El tipo de vehículo no es el ideal para ese uso",
+          "La transmisión no coincide con la preferencia",
+          "La seguridad podría ajustarse mejor a la preferencia del cliente"
+        ]
+      },
+      {
+        "vehiculoId": "VE-014",
+        "vehiculo": "Chevrolet Equinox",
+        "score": 38,
+        "factores": {
+          "presupuesto": 0,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 0,
+          "combustible": 20,
+          "transmision": 20,
+          "seguridad": 80,
+          "diseno": 90
+        },
+        "fortalezas": [
+          "Cumple con la capacidad requerida",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El precio está ligeramente por encima del presupuesto",
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "El tipo de vehículo no es el ideal para ese uso",
+          "El combustible no coincide totalmente con la preferencia",
+          "La transmisión no coincide con la preferencia"
+        ]
+      },
+      {
+        "vehiculoId": "VE-006",
+        "vehiculo": "Chevrolet Captiva",
+        "score": 37,
+        "factores": {
+          "presupuesto": 0,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 0,
+          "combustible": 20,
+          "transmision": 20,
+          "seguridad": 80,
+          "diseno": 80
+        },
+        "fortalezas": [
+          "Cumple con la capacidad requerida",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El precio está ligeramente por encima del presupuesto",
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "El tipo de vehículo no es el ideal para ese uso",
+          "El combustible no coincide totalmente con la preferencia",
+          "La transmisión no coincide con la preferencia"
+        ]
+      },
+      {
+        "vehiculoId": "VE-009",
+        "vehiculo": "Chevrolet Bolt EUV",
+        "score": 37,
+        "factores": {
+          "presupuesto": 0,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 0,
+          "combustible": 20,
+          "transmision": 20,
+          "seguridad": 80,
+          "diseno": 80
+        },
+        "fortalezas": [
+          "Cumple con la capacidad requerida",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El precio está ligeramente por encima del presupuesto",
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "El tipo de vehículo no es el ideal para ese uso",
+          "El combustible no coincide totalmente con la preferencia",
+          "La transmisión no coincide con la preferencia"
+        ]
+      },
+      {
+        "vehiculoId": "VE-010",
+        "vehiculo": "Chevrolet Corvette Stingray",
+        "score": 29,
+        "factores": {
+          "presupuesto": 0,
+          "tipo": 0,
+          "capacidad": 100,
+          "uso": 0,
+          "combustible": 100,
+          "transmision": 20,
+          "seguridad": 64,
+          "diseno": 90
+        },
+        "fortalezas": [
+          "Cumple con la capacidad requerida",
+          "Coincide con la preferencia de combustible",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El precio está ligeramente por encima del presupuesto",
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "El tipo de vehículo no es el ideal para ese uso",
+          "La transmisión no coincide con la preferencia",
+          "La seguridad podría ajustarse mejor a la preferencia del cliente"
+        ]
+      },
+      {
+        "vehiculoId": "VE-008",
+        "vehiculo": "Chevrolet Colorado",
+        "score": 25,
+        "factores": {
+          "presupuesto": 0,
+          "tipo": 0,
+          "capacidad": 100,
+          "uso": 0,
+          "combustible": 20,
+          "transmision": 20,
+          "seguridad": 80,
+          "diseno": 80
+        },
+        "fortalezas": [
+          "Cumple con la capacidad requerida",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El precio está ligeramente por encima del presupuesto",
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "El tipo de vehículo no es el ideal para ese uso",
+          "El combustible no coincide totalmente con la preferencia",
+          "La transmisión no coincide con la preferencia"
+        ]
+      }
+    ],
+    "mejorCoincidencia": 90,
+    "asesor": "Asesor principal"
+  },
+  {
+    "id": "1a35640a-5233-43db-abe7-f4704ce9feaa",
+    "clienteId": "CL-010",
+    "fecha": "2026-09-30T23:58:30.453Z",
+    "resultados": [
+      {
+        "vehiculoId": "VE-006",
+        "vehiculo": "Chevrolet Captiva",
+        "score": 100,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 100,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 100,
+          "transmision": 100,
+          "seguridad": 100,
+          "diseno": 90
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Coincide con el tipo de vehículo preferido",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de combustible",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": []
+      },
+      {
+        "vehiculoId": "VE-002",
+        "vehiculo": "Chevrolet Tracker",
+        "score": 96,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 100,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 20,
+          "transmision": 100,
+          "seguridad": 100,
+          "diseno": 90
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Coincide con el tipo de vehículo preferido",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El combustible no coincide totalmente con la preferencia"
+        ]
+      },
+      {
+        "vehiculoId": "VE-007",
+        "vehiculo": "Chevrolet Trailblazer",
+        "score": 96,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 100,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 20,
+          "transmision": 100,
+          "seguridad": 100,
+          "diseno": 100
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Coincide con el tipo de vehículo preferido",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El combustible no coincide totalmente con la preferencia"
+        ]
+      },
+      {
+        "vehiculoId": "VE-009",
+        "vehiculo": "Chevrolet Bolt EUV",
+        "score": 96,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 100,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 20,
+          "transmision": 100,
+          "seguridad": 100,
+          "diseno": 90
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Coincide con el tipo de vehículo preferido",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El combustible no coincide totalmente con la preferencia"
+        ]
+      },
+      {
+        "vehiculoId": "VE-014",
+        "vehiculo": "Chevrolet Equinox",
+        "score": 96,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 100,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 20,
+          "transmision": 100,
+          "seguridad": 100,
+          "diseno": 100
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Coincide con el tipo de vehículo preferido",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El combustible no coincide totalmente con la preferencia"
+        ]
+      },
+      {
+        "vehiculoId": "VE-011",
+        "vehiculo": "Chevrolet Spin",
+        "score": 95,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 100,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 20,
+          "transmision": 100,
+          "seguridad": 80,
+          "diseno": 90
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Coincide con el tipo de vehículo preferido",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El combustible no coincide totalmente con la preferencia"
+        ]
+      },
+      {
+        "vehiculoId": "VE-001",
+        "vehiculo": "Chevrolet Onix",
+        "score": 87,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 20,
+          "transmision": 100,
+          "seguridad": 80,
+          "diseno": 90
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "El combustible no coincide totalmente con la preferencia"
+        ]
+      },
+      {
+        "vehiculoId": "VE-003",
+        "vehiculo": "Chevrolet Cruze",
+        "score": 87,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 20,
+          "transmision": 100,
+          "seguridad": 80,
+          "diseno": 90
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "El combustible no coincide totalmente con la preferencia"
+        ]
+      },
+      {
+        "vehiculoId": "VE-013",
+        "vehiculo": "Chevrolet Monza",
+        "score": 87,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 20,
+          "transmision": 100,
+          "seguridad": 80,
+          "diseno": 90
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "El combustible no coincide totalmente con la preferencia"
+        ]
+      },
+      {
+        "vehiculoId": "VE-004",
+        "vehiculo": "Chevrolet Spark",
+        "score": 81,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 20,
+          "transmision": 20,
+          "seguridad": 60,
+          "diseno": 80
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Es adecuado para el uso seleccionado",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "El combustible no coincide totalmente con la preferencia",
+          "La transmisión no coincide con la preferencia",
+          "La seguridad podría ajustarse mejor a la preferencia del cliente"
+        ]
+      },
+      {
+        "vehiculoId": "VE-005",
+        "vehiculo": "Chevrolet Sail",
+        "score": 81,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 20,
+          "transmision": 20,
+          "seguridad": 60,
+          "diseno": 80
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Es adecuado para el uso seleccionado",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "El combustible no coincide totalmente con la preferencia",
+          "La transmisión no coincide con la preferencia",
+          "La seguridad podría ajustarse mejor a la preferencia del cliente"
+        ]
+      },
+      {
+        "vehiculoId": "VE-008",
+        "vehiculo": "Chevrolet Colorado",
+        "score": 77,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 0,
+          "combustible": 100,
+          "transmision": 100,
+          "seguridad": 100,
+          "diseno": 90
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Coincide con la preferencia de combustible",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "El tipo de vehículo no es el ideal para ese uso"
+        ]
+      },
+      {
+        "vehiculoId": "VE-010",
+        "vehiculo": "Chevrolet Corvette Stingray",
+        "score": 15,
+        "factores": {
+          "presupuesto": 0,
+          "tipo": 0,
+          "capacidad": 0,
+          "uso": 0,
+          "combustible": 20,
+          "transmision": 100,
+          "seguridad": 80,
+          "diseno": 100
+        },
+        "fortalezas": [
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El precio está ligeramente por encima del presupuesto",
+          "La capacidad es inferior a la requerida",
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "El tipo de vehículo no es el ideal para ese uso",
+          "El combustible no coincide totalmente con la preferencia"
+        ]
+      }
+    ],
+    "mejorCoincidencia": 100,
+    "asesor": "Asesor principal"
+  },
+  {
+    "id": "be6734c6-7724-4eb0-947c-32baa06f369e",
+    "clienteId": "CL-001",
+    "fecha": "2026-09-30T23:53:49.314Z",
+    "resultados": [
+      {
+        "vehiculoId": "VE-011",
+        "vehiculo": "Chevrolet Spin",
+        "score": 98,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 100,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 100,
+          "transmision": 100,
+          "seguridad": 80,
+          "diseno": 80
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Coincide con el tipo de vehículo preferido",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de combustible",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": []
+      },
+      {
+        "vehiculoId": "VE-002",
+        "vehiculo": "Chevrolet Tracker",
+        "score": 93,
+        "factores": {
+          "presupuesto": 80,
+          "tipo": 100,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 100,
+          "transmision": 100,
+          "seguridad": 100,
+          "diseno": 80
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Coincide con el tipo de vehículo preferido",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de combustible",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": []
+      },
+      {
+        "vehiculoId": "VE-001",
+        "vehiculo": "Chevrolet Onix",
+        "score": 90,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 100,
+          "transmision": 100,
+          "seguridad": 80,
+          "diseno": 80
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de combustible",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El tipo de vehículo no coincide exactamente con la preferencia"
+        ]
+      },
+      {
+        "vehiculoId": "VE-003",
+        "vehiculo": "Chevrolet Cruze",
+        "score": 90,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 100,
+          "transmision": 100,
+          "seguridad": 80,
+          "diseno": 80
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de combustible",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El tipo de vehículo no coincide exactamente con la preferencia"
+        ]
+      },
+      {
+        "vehiculoId": "VE-013",
+        "vehiculo": "Chevrolet Monza",
+        "score": 86,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 20,
+          "transmision": 100,
+          "seguridad": 80,
+          "diseno": 80
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "El combustible no coincide totalmente con la preferencia"
+        ]
+      },
+      {
+        "vehiculoId": "VE-004",
+        "vehiculo": "Chevrolet Spark",
+        "score": 85,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 100,
+          "transmision": 20,
+          "seguridad": 60,
+          "diseno": 70
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de combustible"
+        ],
+        "observaciones": [
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "La transmisión no coincide con la preferencia",
+          "La seguridad podría ajustarse mejor a la preferencia del cliente",
+          "El diseño es menos alineado a la preferencia del cliente"
+        ]
+      },
+      {
+        "vehiculoId": "VE-005",
+        "vehiculo": "Chevrolet Sail",
+        "score": 85,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 100,
+          "transmision": 20,
+          "seguridad": 60,
+          "diseno": 70
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de combustible"
+        ],
+        "observaciones": [
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "La transmisión no coincide con la preferencia",
+          "La seguridad podría ajustarse mejor a la preferencia del cliente",
+          "El diseño es menos alineado a la preferencia del cliente"
+        ]
+      },
+      {
+        "vehiculoId": "VE-007",
+        "vehiculo": "Chevrolet Trailblazer",
+        "score": 70,
+        "factores": {
+          "presupuesto": 0,
+          "tipo": 100,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 100,
+          "transmision": 100,
+          "seguridad": 100,
+          "diseno": 90
+        },
+        "fortalezas": [
+          "Cumple con la capacidad requerida",
+          "Coincide con el tipo de vehículo preferido",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de combustible",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El precio está ligeramente por encima del presupuesto"
+        ]
+      },
+      {
+        "vehiculoId": "VE-014",
+        "vehiculo": "Chevrolet Equinox",
+        "score": 66,
+        "factores": {
+          "presupuesto": 0,
+          "tipo": 100,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 20,
+          "transmision": 100,
+          "seguridad": 100,
+          "diseno": 90
+        },
+        "fortalezas": [
+          "Cumple con la capacidad requerida",
+          "Coincide con el tipo de vehículo preferido",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El precio está ligeramente por encima del presupuesto",
+          "El combustible no coincide totalmente con la preferencia"
+        ]
+      },
+      {
+        "vehiculoId": "VE-006",
+        "vehiculo": "Chevrolet Captiva",
+        "score": 65,
+        "factores": {
+          "presupuesto": 0,
+          "tipo": 100,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 20,
+          "transmision": 100,
+          "seguridad": 100,
+          "diseno": 80
+        },
+        "fortalezas": [
+          "Cumple con la capacidad requerida",
+          "Coincide con el tipo de vehículo preferido",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El precio está ligeramente por encima del presupuesto",
+          "El combustible no coincide totalmente con la preferencia"
+        ]
+      },
+      {
+        "vehiculoId": "VE-009",
+        "vehiculo": "Chevrolet Bolt EUV",
+        "score": 65,
+        "factores": {
+          "presupuesto": 0,
+          "tipo": 100,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 20,
+          "transmision": 100,
+          "seguridad": 100,
+          "diseno": 80
+        },
+        "fortalezas": [
+          "Cumple con la capacidad requerida",
+          "Coincide con el tipo de vehículo preferido",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El precio está ligeramente por encima del presupuesto",
+          "El combustible no coincide totalmente con la preferencia"
+        ]
+      },
+      {
+        "vehiculoId": "VE-008",
+        "vehiculo": "Chevrolet Colorado",
+        "score": 42,
+        "factores": {
+          "presupuesto": 0,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 0,
+          "combustible": 20,
+          "transmision": 100,
+          "seguridad": 100,
+          "diseno": 80
+        },
+        "fortalezas": [
+          "Cumple con la capacidad requerida",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El precio está ligeramente por encima del presupuesto",
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "El tipo de vehículo no es el ideal para ese uso",
+          "El combustible no coincide totalmente con la preferencia"
+        ]
+      },
+      {
+        "vehiculoId": "VE-010",
+        "vehiculo": "Chevrolet Corvette Stingray",
+        "score": 19,
+        "factores": {
+          "presupuesto": 0,
+          "tipo": 0,
+          "capacidad": 0,
+          "uso": 0,
+          "combustible": 100,
+          "transmision": 100,
+          "seguridad": 80,
+          "diseno": 90
+        },
+        "fortalezas": [
+          "Coincide con la preferencia de combustible",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El precio está ligeramente por encima del presupuesto",
+          "La capacidad es inferior a la requerida",
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "El tipo de vehículo no es el ideal para ese uso"
+        ]
+      }
+    ],
+    "mejorCoincidencia": 98,
+    "asesor": "Asesor principal"
+  },
+  {
+    "id": "c5f92cf5-bd9d-48b7-b551-86ddd0c66158",
+    "clienteId": "CL-001",
+    "fecha": "2026-09-30T23:41:55.305Z",
+    "resultados": [
+      {
+        "vehiculoId": "VE-011",
+        "vehiculo": "Chevrolet Spin",
+        "score": 98,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 100,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 100,
+          "transmision": 100,
+          "seguridad": 80,
+          "diseno": 80
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Coincide con el tipo de vehículo preferido",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de combustible",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": []
+      },
+      {
+        "vehiculoId": "VE-002",
+        "vehiculo": "Chevrolet Tracker",
+        "score": 93,
+        "factores": {
+          "presupuesto": 80,
+          "tipo": 100,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 100,
+          "transmision": 100,
+          "seguridad": 100,
+          "diseno": 80
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Coincide con el tipo de vehículo preferido",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de combustible",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": []
+      },
+      {
+        "vehiculoId": "VE-001",
+        "vehiculo": "Chevrolet Onix",
+        "score": 90,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 100,
+          "transmision": 100,
+          "seguridad": 80,
+          "diseno": 80
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de combustible",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El tipo de vehículo no coincide exactamente con la preferencia"
+        ]
+      },
+      {
+        "vehiculoId": "VE-003",
+        "vehiculo": "Chevrolet Cruze",
+        "score": 90,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 100,
+          "transmision": 100,
+          "seguridad": 80,
+          "diseno": 80
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de combustible",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El tipo de vehículo no coincide exactamente con la preferencia"
+        ]
+      },
+      {
+        "vehiculoId": "VE-013",
+        "vehiculo": "Chevrolet Monza",
+        "score": 86,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 20,
+          "transmision": 100,
+          "seguridad": 80,
+          "diseno": 80
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "El combustible no coincide totalmente con la preferencia"
+        ]
+      },
+      {
+        "vehiculoId": "VE-004",
+        "vehiculo": "Chevrolet Spark",
+        "score": 85,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 100,
+          "transmision": 20,
+          "seguridad": 60,
+          "diseno": 70
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de combustible"
+        ],
+        "observaciones": [
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "La transmisión no coincide con la preferencia",
+          "La seguridad podría ajustarse mejor a la preferencia del cliente",
+          "El diseño es menos alineado a la preferencia del cliente"
+        ]
+      },
+      {
+        "vehiculoId": "VE-005",
+        "vehiculo": "Chevrolet Sail",
+        "score": 85,
+        "factores": {
+          "presupuesto": 100,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 100,
+          "transmision": 20,
+          "seguridad": 60,
+          "diseno": 70
+        },
+        "fortalezas": [
+          "Se encuentra dentro del presupuesto",
+          "Cumple con la capacidad requerida",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de combustible"
+        ],
+        "observaciones": [
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "La transmisión no coincide con la preferencia",
+          "La seguridad podría ajustarse mejor a la preferencia del cliente",
+          "El diseño es menos alineado a la preferencia del cliente"
+        ]
+      },
+      {
+        "vehiculoId": "VE-007",
+        "vehiculo": "Chevrolet Trailblazer",
+        "score": 70,
+        "factores": {
+          "presupuesto": 0,
+          "tipo": 100,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 100,
+          "transmision": 100,
+          "seguridad": 100,
+          "diseno": 90
+        },
+        "fortalezas": [
+          "Cumple con la capacidad requerida",
+          "Coincide con el tipo de vehículo preferido",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de combustible",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El precio está ligeramente por encima del presupuesto"
+        ]
+      },
+      {
+        "vehiculoId": "VE-014",
+        "vehiculo": "Chevrolet Equinox",
+        "score": 66,
+        "factores": {
+          "presupuesto": 0,
+          "tipo": 100,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 20,
+          "transmision": 100,
+          "seguridad": 100,
+          "diseno": 90
+        },
+        "fortalezas": [
+          "Cumple con la capacidad requerida",
+          "Coincide con el tipo de vehículo preferido",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El precio está ligeramente por encima del presupuesto",
+          "El combustible no coincide totalmente con la preferencia"
+        ]
+      },
+      {
+        "vehiculoId": "VE-006",
+        "vehiculo": "Chevrolet Captiva",
+        "score": 65,
+        "factores": {
+          "presupuesto": 0,
+          "tipo": 100,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 20,
+          "transmision": 100,
+          "seguridad": 100,
+          "diseno": 80
+        },
+        "fortalezas": [
+          "Cumple con la capacidad requerida",
+          "Coincide con el tipo de vehículo preferido",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El precio está ligeramente por encima del presupuesto",
+          "El combustible no coincide totalmente con la preferencia"
+        ]
+      },
+      {
+        "vehiculoId": "VE-009",
+        "vehiculo": "Chevrolet Bolt EUV",
+        "score": 65,
+        "factores": {
+          "presupuesto": 0,
+          "tipo": 100,
+          "capacidad": 100,
+          "uso": 100,
+          "combustible": 20,
+          "transmision": 100,
+          "seguridad": 100,
+          "diseno": 80
+        },
+        "fortalezas": [
+          "Cumple con la capacidad requerida",
+          "Coincide con el tipo de vehículo preferido",
+          "Es adecuado para el uso seleccionado",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El precio está ligeramente por encima del presupuesto",
+          "El combustible no coincide totalmente con la preferencia"
+        ]
+      },
+      {
+        "vehiculoId": "VE-008",
+        "vehiculo": "Chevrolet Colorado",
+        "score": 42,
+        "factores": {
+          "presupuesto": 0,
+          "tipo": 60,
+          "capacidad": 100,
+          "uso": 0,
+          "combustible": 20,
+          "transmision": 100,
+          "seguridad": 100,
+          "diseno": 80
+        },
+        "fortalezas": [
+          "Cumple con la capacidad requerida",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El precio está ligeramente por encima del presupuesto",
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "El tipo de vehículo no es el ideal para ese uso",
+          "El combustible no coincide totalmente con la preferencia"
+        ]
+      },
+      {
+        "vehiculoId": "VE-010",
+        "vehiculo": "Chevrolet Corvette Stingray",
+        "score": 19,
+        "factores": {
+          "presupuesto": 0,
+          "tipo": 0,
+          "capacidad": 0,
+          "uso": 0,
+          "combustible": 100,
+          "transmision": 100,
+          "seguridad": 80,
+          "diseno": 90
+        },
+        "fortalezas": [
+          "Coincide con la preferencia de combustible",
+          "Coincide con la preferencia de transmisión",
+          "Cuenta con seguridad acorde a la prioridad del cliente",
+          "Ajusta bien a la preferencia de diseño"
+        ],
+        "observaciones": [
+          "El precio está ligeramente por encima del presupuesto",
+          "La capacidad es inferior a la requerida",
+          "El tipo de vehículo no coincide exactamente con la preferencia",
+          "El tipo de vehículo no es el ideal para ese uso"
+        ]
+      }
+    ],
+    "mejorCoincidencia": 98,
+    "asesor": "Asesor principal"
+  }
+]

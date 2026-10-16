@@ -1,9 +1,0 @@
-fastapi
-uvicorn[standard]
-python-multipart
-twilio
-pandas
-numpy
-matplotlib
-reportlab
-openpyxl
