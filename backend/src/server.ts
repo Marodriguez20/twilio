@@ -91,9 +91,21 @@ async function ensureSeedData() {
     await saveVehicles(demoVehicles);
   }
 
-  const recommendations = await getRecommendations<RecommendationRecord[]>();
-  if (!recommendations) {
-    await saveRecommendations([]);
+  const recommendations = normalizeObject<RecommendationRecord[]>(await getRecommendations<RecommendationRecord[]>());
+  const vehicleNamesById = new Map(vehicles.map((vehicle) => [vehicle.id, `${vehicle.marca} ${vehicle.modelo}`]));
+  const currentRecommendations = recommendations
+    .map((recommendation) => {
+      const resultados = recommendation.resultados.filter((item) => vehicleNamesById.get(item.vehiculoId) === item.vehiculo);
+      return {
+        ...recommendation,
+        resultados,
+        mejorCoincidencia: resultados[0]?.score ?? 0,
+      };
+    })
+    .filter((recommendation) => recommendation.resultados.length > 0);
+
+  if (JSON.stringify(currentRecommendations) !== JSON.stringify(recommendations)) {
+    await saveRecommendations(currentRecommendations);
   }
 }
 
