@@ -92,17 +92,20 @@ export function RecommendationsPage() {
 
       {visibleRecommendations.length > 0 ? (
         <>
-          <div className="mb-6 flex items-center gap-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-4 text-emerald-800 shadow-sm">
-            <TrendingUp size={18} />
-            Se muestran los {visibleRecommendations.length} vehículos más acordes al perfil del cliente.
-          </div>
-
-          {compareVehicles.length > 0 ? (
-            <div className="sticky top-4 z-10 mb-8 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-              <h2 className="mb-4 text-lg font-semibold text-slate-900">Comparación rápida</h2>
-              <VehicleComparison vehicles={compareVehicles} />
+          <div className="mb-6 flex flex-col gap-3 rounded-3xl border border-emerald-200 bg-gradient-to-r from-emerald-50 to-white p-4 text-emerald-800 shadow-sm md:flex-row md:items-center md:justify-between">
+            <div className="flex items-center gap-3">
+              <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-emerald-100 text-emerald-700">
+                <TrendingUp size={18} />
+              </div>
+              <div>
+                <p className="text-xs font-bold uppercase tracking-[0.2em] text-emerald-700">Top de coincidencia</p>
+                <p className="text-sm font-medium">Se muestran los {visibleRecommendations.length} vehículos más acordes al perfil del cliente.</p>
+              </div>
             </div>
-          ) : null}
+            <div className="rounded-full border border-emerald-200 bg-white px-3 py-1.5 text-xs font-semibold text-emerald-800">
+              {compareVehicles.length}/3 para comparar
+            </div>
+          </div>
 
           <div className="grid gap-5 xl:grid-cols-3">
             {visibleRecommendations.map((item) => (
@@ -114,6 +117,19 @@ export function RecommendationsPage() {
               />
             ))}
           </div>
+
+          {compareVehicles.length > 0 ? (
+            <div className="mt-8 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+              <div className="mb-4 flex items-center justify-between gap-3">
+                <div>
+                  <h2 className="text-lg font-semibold text-slate-900">Comparación rápida</h2>
+                  <p className="text-sm text-slate-500">Revisa las diferencias clave entre los vehículos seleccionados.</p>
+                </div>
+                <span className="rounded-full bg-slate-100 px-2.5 py-1 text-xs font-semibold text-slate-700">{compareVehicles.length} vehículos</span>
+              </div>
+              <VehicleComparison vehicles={compareVehicles} />
+            </div>
+          ) : null}
         </>
       ) : (
         <div className="rounded-2xl border border-dashed border-slate-300 bg-white p-8 text-center text-slate-500">

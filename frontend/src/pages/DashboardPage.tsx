@@ -78,7 +78,7 @@ export function DashboardPage() {
             <span className="premium-badge">Country Motors Chevrolet</span>
             <h1 className="mt-4 text-3xl font-black tracking-tight text-white md:text-4xl">Dashboard ejecutivo</h1>
             <p className="mt-2 max-w-xl text-sm text-slate-300 md:text-base">
-              Resumen de clientes, inventario y recomendaciones con foco en ventas y apoyo comercial.
+              Resumen operativo del concesionario para apoyar a los asesores con decisiones rápidas, claras y alineadas con el perfil del cliente.
             </p>
           </div>
           <div className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3 backdrop-blur-sm">
@@ -90,7 +90,7 @@ export function DashboardPage() {
 
       <PageHeader
         title="Dashboard"
-        description="Resumen del negocio, clientes activos, inventario disponible y recomendaciones realizadas."
+        description="Resumen del negocio, clientes activos, inventario disponible y recomendaciones realizadas con enfoque comercial."
       />
 
       <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-5">

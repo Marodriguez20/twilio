@@ -21,7 +21,7 @@ const emptyVehicle: Omit<Vehicle, 'id' | 'createdAt'> = {
   diseno: 4,
   maletero: 400,
   descripcion: '',
-  imagen: 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=900&q=80',
+  imagen: '/images/vehicles/chevrolet-tracker.png',
   estado: 'Disponible',
 };
 
@@ -133,7 +133,10 @@ export function VehiclesPage() {
         </section>
 
         <aside className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-          <h2 className="mb-4 text-lg font-semibold text-slate-900">{editingId ? 'Editar vehículo' : 'Registrar vehículo'}</h2>
+          <div className="mb-4 rounded-2xl border border-amber-200 bg-amber-50 p-3">
+            <h2 className="text-lg font-semibold text-slate-900">{editingId ? 'Editar vehículo' : 'Registrar vehículo'}</h2>
+            <p className="mt-1 text-xs text-slate-600">Complete cada dato para mantener el inventario con información útil, clara y consistente para asesoría comercial.</p>
+          </div>
           <form onSubmit={handleSubmit} className="space-y-3">
             <div className="grid gap-3 sm:grid-cols-2">
               <FieldBlock label="Marca" hint="Marca del vehículo en el catálogo.">

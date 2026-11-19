@@ -2,6 +2,8 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import express, { type Request, type Response } from 'express';
 import { randomUUID } from 'node:crypto';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { z } from 'zod';
 import { demoClients, demoVehicles } from './demoData.js';
 import { generateRecommendationsForClient } from './recommendationEngine.js';
@@ -13,11 +15,14 @@ dotenv.config();
 const app = express();
 const port = Number(process.env.PORT ?? 4000);
 const host = process.env.HOST ?? '0.0.0.0';
-const allowedOrigins = (process.env.CORS_ORIGIN ?? 'http://localhost:5173,http://localhost:4173,http://127.0.0.1:5173,http://127.0.0.1:4173').split(',').map((origin) => origin.trim()).filter(Boolean);
+const allowedOrigins = [process.env.RENDER_EXTERNAL_URL, ...(process.env.CORS_ORIGIN ?? 'http://localhost:5173,http://localhost:5174,http://localhost:5175,http://localhost:4173,http://127.0.0.1:5173,http://127.0.0.1:5174,http://127.0.0.1:5175,http://127.0.0.1:4173').split(',')]
+  .map((origin) => origin?.trim())
+  .filter((origin): origin is string => Boolean(origin));
+const isLocalDevOrigin = (origin: string | undefined) => !!origin && /^https?:\/\/(localhost|127\.0\.0\.1|0\.0\.0\.0)(:\d+)?$/.test(origin);
 
 app.use(cors({
   origin: (origin, callback) => {
-    if (!origin || allowedOrigins.includes(origin)) {
+    if (!origin || allowedOrigins.includes(origin) || isLocalDevOrigin(origin)) {
       callback(null, true);
       return;
     }
@@ -350,6 +355,21 @@ app.post('/api/recomendaciones/generar', async (req: Request, res: Response) => 
 });
 
 await ensureSeedData();
+
+if (process.env.NODE_ENV === 'production') {
+  const frontendDist = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../frontend/dist');
+  app.use(express.static(frontendDist));
+  app.use((req, res, next) => {
+    if (req.method !== 'GET' || req.path.startsWith('/api/')) {
+      next();
+      return;
+    }
+
+    res.sendFile(path.join(frontendDist, 'index.html'), (error) => {
+      if (error) next(error);
+    });
+  });
+}
 
 app.listen(port, host, () => {
   console.log(`Country Motors backend running on http://${host}:${port}`);

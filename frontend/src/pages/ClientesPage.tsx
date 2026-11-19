@@ -153,7 +153,10 @@ export function ClientesPage() {
         </section>
 
         <aside className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-          <h2 className="mb-4 text-lg font-semibold text-slate-900">{editingId ? 'Editar cliente' : 'Registrar cliente'}</h2>
+          <div className="mb-4 rounded-2xl border border-amber-200 bg-amber-50 p-3">
+            <h2 className="text-lg font-semibold text-slate-900">{editingId ? 'Editar cliente' : 'Registrar cliente'}</h2>
+            <p className="mt-1 text-xs text-slate-600">Complete cada campo con la información del cliente para evaluar su perfil y presupuesto.</p>
+          </div>
           <form onSubmit={handleSubmit} className="space-y-4">
             <div className="grid gap-4 sm:grid-cols-2">
               <FieldBlock label="Nombre completo" hint="Nombre del cliente tal como lo registrará el asesor.">

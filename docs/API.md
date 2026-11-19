@@ -1,14 +1,17 @@
 # API REST – Country Motors Chevrolet
 
 ## Base URL
-http://localhost:4000/api
+
+<http://localhost:4000/api>
 
 ## Endpoints
 
 ### Salud del backend
+
 GET /api/health
 
 Respuesta:
+
 ```json
 {
   "ok": true,
@@ -17,6 +20,7 @@ Respuesta:
 ```
 
 ### Clientes
+
 GET /api/clientes
 GET /api/clientes/:id
 POST /api/clientes
@@ -24,6 +28,7 @@ PUT /api/clientes/:id
 DELETE /api/clientes/:id
 
 Ejemplo de creación:
+
 ```json
 {
   "nombre": "Ana López",
@@ -45,6 +50,7 @@ Ejemplo de creación:
 ```
 
 ### Vehículos
+
 GET /api/vehiculos
 GET /api/vehiculos/:id
 POST /api/vehiculos
@@ -52,6 +58,7 @@ PUT /api/vehiculos/:id
 DELETE /api/vehiculos/:id
 
 Ejemplo de creación:
+
 ```json
 {
   "marca": "Chevrolet",
@@ -75,12 +82,14 @@ Ejemplo de creación:
 ```
 
 ### Recomendaciones
+
 POST /api/recomendaciones
 GET /api/recomendaciones
 GET /api/recomendaciones/:id
 POST /api/recomendaciones/generar
 
 Request para generar recomendación:
+
 ```json
 {
   "clienteId": "CL-001"
@@ -88,6 +97,7 @@ Request para generar recomendación:
 ```
 
 Respuesta:
+
 ```json
 {
   "cliente": {
@@ -122,6 +132,7 @@ Respuesta:
 ```
 
 ## Códigos de error
+
 - 400: información inválida
 - 404: recurso no encontrado
 - 409: conflicto de duplicidad
